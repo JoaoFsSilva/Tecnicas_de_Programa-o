@@ -1,0 +1,90 @@
+**Programação Orientada a Objetos (POO)**
+
+A Programação Orientada a Objetos (POO) é um dos paradigmas de programação mais populares e influentes, principalmente no desenvolvimento de sistemas complexos. Diferente da programação procedural, que se concentra em funções e procedimentos aplicados a dados, a POO organiza o código em torno de objetos, que representam entidades do mundo real ou conceitual, cada um com atributos (características) e métodos (comportamentos).
+
+Por exemplo, pense em um carro:
+
+Ele tem atributos como cor, marca, modelo e ano de fabricação. Ele tem métodos como acelerar, frear e virar. Na Programação orientada a objetos, o carro seria representado como uma classe, e cada veículo criado a partir dessa classe seria um objeto (ou instância).
+
+-Conceitos
+
+1. Classe
+Um “molde” ou modelo que define atributos e métodos.
+Exemplo: a classe Carro define o que todo carro pode ter ou fazer.
+
+2. Objeto
+Instância de uma classe. Cada objeto tem um estado (valores dos atributos) e pode executar comportamentos (métodos).
+Exemplo: meuCarro = new Carro("Vermelho", "Toyota").
+
+3. Atributos (ou propriedades)
+São as características ou dados de um objeto.
+Exemplo: cor = “vermelho”.
+
+4. Métodos
+São as funções que definem o comportamento do objeto, são sempre verbos.
+Exemplo: acelerar(), frear().
+
+-Os Quatro Pilares da POO
+
+1. Abstração:
+Focar nos detalhes essenciais e ignorar os irrelevantes.
+Exemplo: em um sistema de estacionamento, talvez só importe a placa e a cor do carro, não o tipo de motor.
+
+
+2. Encapsulamento:
+Agrupar atributos e métodos relacionados em uma única classe, protegendo os dados internos.
+Isso é feito usando modificadores de acesso (como private, protected e public) e métodos controladores (getters e setters).
+
+
+3. Herança:
+Permite que uma classe filha reutilize e estenda os atributos e métodos de uma classe pai.
+Exemplo: uma classe Animal pode ter peso e comer(). A classe Cachorro herda de Animal e adiciona latir().
+
+
+4. Polimorfismo:
+“Muitas formas”: permite que métodos com o mesmo nome tenham comportamentos diferentes dependendo da classe.
+Exemplo: emitirSom() em Cachorro retorna “au au”, enquanto em Gato retorna “miau”.
+
+
+--Composição e agregação: quando uma classe usa objetos de outras classes para formar estruturas mais complexas.
+--Interfaces e classes abstratas: definem contratos ou modelos a serem seguidos por outras classes.
+--Dependência: quando uma classe precisa de outra para executar determinada tarefa.
+
+-Vantagens da POO
+
+1-Reutilização de código (via herança e composição).
+
+2-Modularidade: o sistema é dividido em classes bem definidas.
+
+3-Facilidade de manutenção: corrigir ou alterar uma classe não afeta todo o sistema.
+
+4-Escalabilidade: facilita a adição de novas funcionalidades.
+
+5-Modelagem próxima ao mundo real, tornando o design mais intuitivo.
+
+6-Separação de responsabilidades (melhor coesão e menos acoplamento).
+
+
+-Desvantagens da POO
+
+1-Curva de aprendizado: conceitos como encapsulamento, polimorfismo e herança podem ser difíceis no início.
+
+2-Complexidade inicial: projetar as classes e relacionamentos exige planejamento.
+
+3-Sobrecarga estrutural: em projetos pequenos, pode ser “exagero” usar POO.
+
+4-Hierarquias profundas de herança podem dificultar manutenção.
+
+5-Desempenho: abstrações podem ter custo de memória e processamento (embora pequeno na maioria dos casos modernos).
+
+
+
+Aplicações da POO
+
+A POO é aplicavel em praticamete qualquer tipo de software, mas quando ele tem muitas entidades, regras e interações faz mais sentido.
+Normalente é muito usasdo em sistemas corporativos como ERPs/Sistema de gestão, também é muito utilizado em aplicativos móveis, no android usa o Java e cada tela,
+componentes ou recursos é modelado em classes. Já no IOS é utilizado o swift.
+
+-Boas Práticas
+
+Um bom codigo OO deve ser modular, coeso, reutilizavel, legivel e facil de manter.
