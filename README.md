@@ -1,2 +1,2 @@
-# T-cnicas-de-Programa-o
-Repositório voltado para atividades da matéria do professor Heberson
+**Técnicas de Programação**
+Repositório voltado para atividades da matéria de técnicas de programação, Professor Heberson.
